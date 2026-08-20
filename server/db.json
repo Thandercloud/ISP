@@ -1,0 +1,455 @@
+{
+  "settings": {
+    "companyName": "Spades Internet",
+    "logoUrl": "",
+    "phone": "+880 1885-070504",
+    "supportNumber": "+880 9612-000111",
+    "email": "support@spadesinternet.com",
+    "address": "House #42, Road #11, Block-D, Banani, Dhaka-1213",
+    "facebookPage": "https://facebook.com/spadesinternet",
+    "website": "https://spadesinternet.com",
+    "bkashNumber": "01885070504 (Merchant)",
+    "nagadNumber": "01885070504 (Merchant)",
+    "rocketNumber": "01885070504-7",
+    "bankInfo": "Dutch Bangla Bank Ltd, A/C: 104.110.45291, Branch: Banani",
+    "smsSenderId": "SPADES_ISP",
+    "smsApiKey": "sk_live_spades_bd_9921",
+    "smsApiUrl": "https://api.sms-gateway-bd.com/v1/send",
+    "smsBalance": 118,
+    "autoBillingDay": 1,
+    "autoApproveRegistration": false
+  },
+  "packages": [
+    {
+      "id": "pkg-1",
+      "name": "Basic",
+      "speedMbps": 10,
+      "price": 500,
+      "installationFee": 1000,
+      "features": [
+        "10 Mbps Unlimited",
+        "24/7 Support",
+        "Shared IP"
+      ],
+      "status": "Active",
+      "subscriberCount": 95
+    },
+    {
+      "id": "pkg-2",
+      "name": "Standard",
+      "speedMbps": 20,
+      "price": 850,
+      "installationFee": 1000,
+      "features": [
+        "20 Mbps Unlimited",
+        "Optical Fiber",
+        "BDIX 100 Mbps",
+        "FTP Access"
+      ],
+      "status": "Active",
+      "subscriberCount": 260
+    },
+    {
+      "id": "pkg-3",
+      "name": "Premium",
+      "speedMbps": 30,
+      "price": 1100,
+      "installationFee": 500,
+      "features": [
+        "30 Mbps Unlimited",
+        "Dedicated IP Option",
+        "Priority Support",
+        "Real IP"
+      ],
+      "status": "Active",
+      "subscriberCount": 120
+    },
+    {
+      "id": "pkg-4",
+      "name": "Business",
+      "speedMbps": 50,
+      "price": 1800,
+      "installationFee": 0,
+      "features": [
+        "50 Mbps Dedicated",
+        "SLA 99.9%",
+        "Real IP Included",
+        "Account Manager"
+      ],
+      "status": "Active",
+      "subscriberCount": 78
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "sub-1001",
+      "customerId": "SPD-1001",
+      "name": "Tanvir Hossain",
+      "phone": "01711223344",
+      "email": "tanvir@gmail.com",
+      "address": "House 12, Road 4, Sector 7, Uttara, Dhaka",
+      "packageId": "pkg-2",
+      "packageName": "Standard 20 Mbps",
+      "monthlyBill": 850,
+      "dueAmount": 850,
+      "previousDue": 0,
+      "advanceAmount": 0,
+      "paymentStatus": "Unpaid",
+      "connectionStatus": "Active",
+      "username": "tanvir_uttara",
+      "installationDate": "2025-01-15",
+      "lastPaymentDate": "2026-07-02",
+      "nextDueDate": "2026-09-01",
+      "collectorName": "Mukul",
+      "ipAddress": "192.168.10.45",
+      "macAddress": "48:89:E7:A1:2B:10",
+      "routerName": "MikroTik-Core-01",
+      "onuSignal": "-19.4 dBm",
+      "notes": "Prefers bKash payment"
+    },
+    {
+      "id": "sub-1002",
+      "customerId": "SPD-1002",
+      "name": "Rahim Chowdhury",
+      "phone": "01885070504",
+      "email": "rahim@gmail.com",
+      "address": "Flat 4B, Building 9, Gulshan-2, Dhaka",
+      "packageId": "pkg-3",
+      "packageName": "Premium 30 Mbps",
+      "monthlyBill": 1100,
+      "dueAmount": 0,
+      "previousDue": 0,
+      "advanceAmount": 1100,
+      "paymentStatus": "Paid",
+      "connectionStatus": "Suspended",
+      "username": "rahim_c",
+      "installationDate": "2024-11-10",
+      "lastPaymentDate": "2026-08-01",
+      "nextDueDate": "2026-09-01",
+      "collectorName": "Mukul",
+      "ipAddress": "192.168.10.46",
+      "macAddress": "00:1A:2B:3C:4D:5E",
+      "routerName": "MikroTik-Core-01",
+      "onuSignal": "-18.1 dBm",
+      "notes": "Paid in advance"
+    },
+    {
+      "id": "sub-1003",
+      "customerId": "SPD-1003",
+      "name": "Karim Ahmed",
+      "phone": "01912345678",
+      "email": "karim@gmail.com",
+      "address": "32 Lake Circus, Kalabagan, Dhaka",
+      "packageId": "pkg-2",
+      "packageName": "Standard 20 Mbps",
+      "monthlyBill": 850,
+      "dueAmount": 1700,
+      "previousDue": 850,
+      "advanceAmount": 0,
+      "paymentStatus": "Overdue",
+      "connectionStatus": "Active",
+      "username": "karim_kalabagan",
+      "installationDate": "2024-05-20",
+      "lastPaymentDate": "2026-06-05",
+      "nextDueDate": "2026-08-01",
+      "collectorName": "Rifat",
+      "ipAddress": "192.168.10.88",
+      "macAddress": "BC:D1:D3:5F:99:A0",
+      "routerName": "MikroTik-Sub-02",
+      "onuSignal": "Offline",
+      "notes": "Suspended for overdue payment"
+    },
+    {
+      "id": "sub-1004",
+      "customerId": "SPD-1004",
+      "name": "Nusrat Jahan",
+      "phone": "01555667788",
+      "email": "nusrat@gmail.com",
+      "address": "House 88, Road 15, Dhanmondi, Dhaka",
+      "packageId": "pkg-1",
+      "packageName": "Basic 10 Mbps",
+      "monthlyBill": 500,
+      "dueAmount": 200,
+      "previousDue": 0,
+      "advanceAmount": 0,
+      "paymentStatus": "Partial Due",
+      "connectionStatus": "Suspended",
+      "username": "nusrat_dhanmondi",
+      "installationDate": "2025-03-01",
+      "lastPaymentDate": "2026-08-05",
+      "nextDueDate": "2026-09-01",
+      "collectorName": "Mukul",
+      "ipAddress": "192.168.10.102",
+      "macAddress": "A4:B3:C2:D1:E0:F9",
+      "routerName": "MikroTik-Core-01",
+      "onuSignal": "-20.2 dBm",
+      "notes": "Paid ৳300 partial"
+    },
+    {
+      "id": "sub-1005",
+      "customerId": "SPD-1005",
+      "name": "Green Model School (Free Connection)",
+      "phone": "01300112233",
+      "email": "info@greenschool.edu.bd",
+      "address": "Main Road, Mirpur-10, Dhaka",
+      "packageId": "pkg-4",
+      "packageName": "Business 50 Mbps",
+      "monthlyBill": 0,
+      "dueAmount": 0,
+      "previousDue": 0,
+      "advanceAmount": 0,
+      "paymentStatus": "Free",
+      "connectionStatus": "Suspended",
+      "username": "green_school",
+      "installationDate": "2024-01-01",
+      "lastPaymentDate": "N/A",
+      "nextDueDate": "N/A",
+      "collectorName": "Admin",
+      "ipAddress": "192.168.20.5",
+      "macAddress": "D8:07:B6:88:99:11",
+      "routerName": "MikroTik-Core-01",
+      "onuSignal": "-17.5 dBm",
+      "notes": "CSR Free Internet Partnership"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "inv-10294",
+      "invoiceNumber": "INV-10294",
+      "customerId": "SPD-1001",
+      "customerName": "Tanvir Hossain",
+      "monthYear": "August 2026",
+      "packageName": "Standard 20 Mbps",
+      "currentBill": 850,
+      "previousDue": 0,
+      "extraCharge": 0,
+      "discount": 0,
+      "paidAmount": 0,
+      "remainingDue": 850,
+      "status": "Unpaid",
+      "dueDate": "2026-09-01",
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": "inv-10295",
+      "invoiceNumber": "INV-10295",
+      "customerId": "SPD-1002",
+      "customerName": "Rahim Chowdhury",
+      "monthYear": "August 2026",
+      "packageName": "Premium 30 Mbps",
+      "currentBill": 1100,
+      "previousDue": 0,
+      "extraCharge": 0,
+      "discount": 0,
+      "paidAmount": 1100,
+      "remainingDue": 0,
+      "status": "Paid",
+      "dueDate": "2026-09-01",
+      "createdAt": "2026-08-01"
+    },
+    {
+      "id": "inv-10291",
+      "invoiceNumber": "INV-10291",
+      "customerId": "SPD-1003",
+      "customerName": "Karim Ahmed",
+      "monthYear": "July 2026",
+      "packageName": "Standard 20 Mbps",
+      "currentBill": 850,
+      "previousDue": 850,
+      "extraCharge": 0,
+      "discount": 0,
+      "paidAmount": 0,
+      "remainingDue": 1700,
+      "status": "Overdue",
+      "dueDate": "2026-08-01",
+      "createdAt": "2026-07-01"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-501",
+      "invoiceNumber": "INV-10295",
+      "customerId": "SPD-1002",
+      "customerName": "Rahim Chowdhury",
+      "amount": 1100,
+      "method": "bKash",
+      "transactionId": "BK88219401",
+      "status": "Approved",
+      "paymentDate": "2026-08-01 10:15 AM",
+      "reference": "Auto-app bKash API",
+      "notes": "Verified"
+    },
+    {
+      "id": "pay-502",
+      "invoiceNumber": "INV-10280",
+      "customerId": "SPD-1004",
+      "customerName": "Nusrat Jahan",
+      "amount": 300,
+      "method": "Nagad",
+      "transactionId": "NG77192033",
+      "status": "Approved",
+      "paymentDate": "2026-08-05 02:40 PM",
+      "reference": "Nagad Pay",
+      "notes": "Partial payment received"
+    }
+  ],
+  "smsLogs": [
+    {
+      "id": "sms-901",
+      "recipientPhone": "01711223344",
+      "customerId": "SPD-1001",
+      "customerName": "Tanvir Hossain",
+      "message": "Dear Tanvir Hossain, your internet bill of ৳850 is due on 01 Sep 2026. Please pay to avoid suspension. - Spades Internet",
+      "type": "Auto-Bill",
+      "status": "Sent",
+      "providerResponse": "200 OK | Message ID: 991204",
+      "sentAt": "2026-08-01 09:00 AM"
+    },
+    {
+      "id": "sms-902",
+      "recipientPhone": "01885070504",
+      "customerId": "SPD-1002",
+      "customerName": "Rahim Chowdhury",
+      "message": "Dear Rahim Chowdhury, we received your payment of ৳1100. Thank you for staying with Spades Internet.",
+      "type": "Auto-Payment",
+      "status": "Sent",
+      "providerResponse": "200 OK | Message ID: 991205",
+      "sentAt": "2026-08-01 10:16 AM"
+    }
+  ],
+  "smsTemplates": [
+    {
+      "id": "tpl-1",
+      "title": "Monthly Bill Generated",
+      "key": "bill_generated",
+      "template": "Dear {name}, your monthly internet bill of ৳{amount} for package {package} has been generated. Due date: {due_date}. - {company}",
+      "isAutoEnabled": true
+    },
+    {
+      "id": "tpl-2",
+      "title": "Payment Confirmation",
+      "key": "payment_success",
+      "template": "Dear {name}, we received your payment of ৳{amount}. Thank you for choosing {company}.",
+      "isAutoEnabled": true
+    },
+    {
+      "id": "tpl-3",
+      "title": "Due Payment Reminder",
+      "key": "due_reminder",
+      "template": "Dear {name}, your internet bill of ৳{amount} is due tomorrow ({due_date}). Please pay promptly to avoid interruption. - {company}",
+      "isAutoEnabled": true
+    },
+    {
+      "id": "tpl-4",
+      "title": "Overdue Notice",
+      "key": "overdue_warning",
+      "template": "URGENT: Dear {name}, your bill of ৳{amount} is overdue. Pay immediately to keep your service active. - {company}",
+      "isAutoEnabled": true
+    },
+    {
+      "id": "tpl-5",
+      "title": "Connection Suspended",
+      "key": "service_suspended",
+      "template": "Dear {name}, your internet connection has been suspended due to unpaid bills. Contact support {phone}. - {company}",
+      "isAutoEnabled": true
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tkt-801",
+      "ticketId": "TKT-10492",
+      "customerId": "SPD-1001",
+      "customerName": "Tanvir Hossain",
+      "phone": "01711223344",
+      "category": "Slow Internet",
+      "subject": "Frequent speed drop in evening hours",
+      "description": "Since last 3 days, internet gets slow between 8 PM to 11 PM. Ping increases to 180ms.",
+      "status": "Processing",
+      "priority": "High",
+      "assignedTo": "Support Staff Rahim",
+      "createdAt": "2026-08-18 04:30 PM",
+      "updatedAt": "2026-08-18 05:10 PM",
+      "replies": [
+        {
+          "id": "rep-1",
+          "senderName": "Support Staff Rahim",
+          "senderRole": "Support Staff",
+          "message": "Hello Tanvir, we are monitoring fiber node core-01. Our engineers are optimizing the optical link bandwidth.",
+          "createdAt": "2026-08-18 05:10 PM"
+        }
+      ]
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-1",
+      "name": "Upstream Bandwidth Submarine Cable",
+      "category": "Internet Bandwidth",
+      "amount": 85000,
+      "date": "2026-08-05",
+      "description": "Primary 10Gbps link payment",
+      "addedBy": "Manager"
+    },
+    {
+      "id": "exp-2",
+      "name": "Office Rent Banani",
+      "category": "Office",
+      "amount": 25000,
+      "date": "2026-08-01",
+      "description": "August office rent",
+      "addedBy": "Manager"
+    }
+  ],
+  "deposits": [
+    {
+      "id": "dep-1",
+      "method": "bKash",
+      "amount": 147210,
+      "date": "2026-08-15",
+      "reference": "DBBL-DEP-00912",
+      "description": "Daily collector deposit transfer",
+      "status": "Approved",
+      "addedBy": "Mukul"
+    }
+  ],
+  "routers": [
+    {
+      "id": "rtr-1",
+      "name": "MikroTik CCR1036 Core 1",
+      "ipAddress": "103.140.20.1",
+      "apiPort": 8728,
+      "username": "admin_spades",
+      "status": "Connected",
+      "connectedUsers": 551,
+      "lastPing": "Just now"
+    },
+    {
+      "id": "rtr-2",
+      "name": "MikroTik CCR1016 Sub-Node Uttara",
+      "ipAddress": "103.140.20.2",
+      "apiPort": 8728,
+      "username": "admin_uttara",
+      "status": "Connected",
+      "connectedUsers": 140,
+      "lastPing": "Just now"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act-1",
+      "username": "Super Admin",
+      "role": "Super Admin",
+      "action": "System Backup",
+      "details": "Automated database backup executed",
+      "timestamp": "2026-08-19 10:00 AM"
+    },
+    {
+      "id": "act-2",
+      "username": "Mukul",
+      "role": "Collector",
+      "action": "Payment Entry",
+      "details": "Collected ৳1100 from Rahim Chowdhury",
+      "timestamp": "2026-08-01 10:15 AM"
+    }
+  ]
+}
